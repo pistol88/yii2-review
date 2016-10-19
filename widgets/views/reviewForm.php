@@ -26,6 +26,9 @@ use yii\widgets\ActiveForm;
             <?= $form->field($reviewModel, 'minuses')->textArea() ?>
         </div>
         <div class="col-md-12">
+            <?= $form->field($reviewModel, 'text')->textArea() ?>
+        </div>
+        <div class="col-md-12">
             <button type="submit" class="btn btn-success">
                 Добавить отзыв
             </button>
